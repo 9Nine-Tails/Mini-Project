@@ -4,7 +4,7 @@ let pose;
 let left;
 let prev_left = 0;
 let right;
-let right_prev = 0;
+let prev_right = 0;
 
 function preload() {
   drum1 = loadSound("sounds/loetom.wav");
