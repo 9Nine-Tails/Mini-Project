@@ -7,10 +7,10 @@ let right;
 let prev_right = 0;
 
 function preload() {
-  drum1 = loadSound(loetom);
-  drum2 = loadSound(midtom);
-  drum3 = loadSound(hietom);
-  drum4 = loadSound(acoustic_snare);
+  drum1 = loadSound("sounds/loetom.wav");
+  drum2 = loadSound("sounds/midtom.wav");
+  drum3 = loadSound("sounds/hietom.wav");
+  drum4 = loadSound("sounds/acoustic_snare.wav");
 }
 
 function setup() {
