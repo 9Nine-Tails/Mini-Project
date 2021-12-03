@@ -86,7 +86,7 @@ function draw() {
       }
     }
     fill(0, 0, 255);
-    ellipse(pose.leftWrist.x, pose.leftWrist.y, 32);
-    ellipse(pose.rightWrist.x, pose.rightWrist.y, 32);
+    ellipse(-pose.leftWrist.x, pose.leftWrist.y, 32);
+    ellipse(-pose.rightWrist.x, pose.rightWrist.y, 32);
   }
 }
