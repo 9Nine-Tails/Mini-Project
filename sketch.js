@@ -89,5 +89,7 @@ function draw() {
     ellipse(-pose.leftWrist.x, pose.leftWrist.y, 32);
     ellipse(-pose.rightWrist.x, pose.rightWrist.y, 32);
   }
+  fill(0, 0, 255);
+  ellipse(-width/2, height/2, 32);
   line(-width,height/2,0,height/2);
 }
